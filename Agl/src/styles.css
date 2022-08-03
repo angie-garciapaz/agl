@@ -28,6 +28,7 @@
   --secondary-color: #CD9E63;
   --orange-purple: #B09A87;
   --gray-green: #B7B7AA;
+  --footer-color: rgba(216, 216, 210, .2);
 }
 
 /* Box sizing rules */
@@ -157,7 +158,84 @@ body {
 }
 
 .center-text > a {
-text-decoration: none;
+  text-decoration: none;
 }
 
+.social-network {
+  width: 5ch;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
 
+.work-section {
+  margin: 2rem auto;
+  width: 700px;
+  padding-bottom: 3rem;
+}
+
+#portfolio-work {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-square {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+#square-1 {
+  background-color: var(--secondary-color);
+  opacity: 90%;
+}
+
+#square-2 {
+  background: url("/assets/images/ssusa.png") no-repeat center;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+#safestreets {
+  background-color: var(--gray-green);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 90%;
+}
+
+#square-3 {
+  background-color: var(--orange-purple);
+}
+
+#square-4 {
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: rgba(227, 224, 220, .5);
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer-list {
+  display: flex;
+}
+
+#footer-list > li {
+  padding: 0 1rem;
+  text-transform: capitalize;
+}
